@@ -7,7 +7,7 @@ using namespace std;
  {
 	 int A[BARIS][KOLOM]={2,4,6,3,4,2,5,6,3,2,4,1};
 	 int B[BARIS][KOLOM]={1,3,5,7,2,2,4,6,3,1,2,3};
-	 int C[BARIS][KOLOM],i,j;
+	 int C[BARIS][KOLOM],i,j,o;
 	 //jumlahkan matrik
 	 for(i=0;i<=BARIS-1;i++)
 	 for(j=0;j<=KOLOM-1;j++)
